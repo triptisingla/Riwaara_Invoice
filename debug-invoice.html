@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Invoice</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 40px;
+        background-color: #f8f9fa;
+        color: #343a40;
+      }
+      .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 30px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      .logo {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .logo img {
+        max-height: 100px;
+      }
+      .company-info {
+        text-align: center;
+        font-size: 14px;
+        color: #6c757d;
+        margin-bottom: 30px;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #dee2e6;
+      }
+      thead th {
+        background-color: #494847;
+        color: #ffffff;
+      }
+     
+
+      tbody td {
+        color: #fbfafa;
+      }
+      .totals {
+        margin-top: 30px;
+        float: right;
+        width: 300px;
+      }
+      .totals table {
+        width: 100%;
+      }
+      .footer {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 12px;
+        color: #6c757d;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invoice-box">
+      <div class="logo">
+        <img src="file:///mnt/data/RIWAARA.png" alt="RIWAARA Logo" />
+      </div>
+
+      <div class="company-info">
+        <strong>RIWAARA</strong><br />
+        123 Fashion Street, Surat, Gujarat - 395007, India<br />
+        GSTIN: 24ABCDE1234F1Z5
+      </div>
+
+      <h1>INVOICE</h1>
+      <h2>Order #123456789</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+      <tr style="background-color: #ffffff; color: #000;">
+        <td>Test Product A</td>
+        <td>2</td>
+        <td>$10.00</td>
+      </tr>
+      <tr style="background-color: #494847; color: #fff;">
+        <td>Test Product B</td>
+        <td>1</td>
+        <td>$20.00</td>
+      </tr>
+        </tbody>
+      </table>
+
+      <div class="footer">
+        <p>
+          Thank you for shopping with <strong>RIWAARA</strong> — Timeless
+          Tradition.<br />If you have any questions, contact us at
+          support@riwaara.com
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
